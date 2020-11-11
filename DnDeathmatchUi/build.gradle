@@ -1,2 +1,9 @@
+plugins{
+  id 'com.moowork.node' version '1.2.0'
+  id 'java'
+}
+
 group 'com.dndeathmatch.game'
 version '1.0-SNAPSHOT'
+
+jar.dependsOn 'npm_run_build'

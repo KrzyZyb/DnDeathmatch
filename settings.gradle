@@ -14,8 +14,7 @@ pluginManagement {
 }
 
 rootProject.name = 'DnDeathmatch'
-include 'DnDeathmatchBackend'
-include 'DnDeathmatchUi'
+include ('DnDeathmatchUi', 'DnDeathmatchBackend')
 
 
 
