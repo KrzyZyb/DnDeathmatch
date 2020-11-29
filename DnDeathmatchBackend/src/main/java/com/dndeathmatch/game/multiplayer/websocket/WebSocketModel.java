@@ -1,4 +1,4 @@
-package com.dndeathmatch.game.multiplayer;
+package com.dndeathmatch.game.multiplayer.websocket;
 
 public class WebSocketModel {
 
