@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class PostInputDTO {
     private String title;
     private String content;
-    private Long authorId;
+    private String authorId;
 
     @Override
     public String toString() {
